@@ -1,0 +1,81 @@
+@media screen and (max-width: 1024px) {
+    .showcase {
+        grid-template-columns: 1fr; /* Stack image and text vertically */
+        row-gap: 2em; /* Add space between stacked sections */
+        height: auto; /* Allow height to adjust with content */
+    }
+
+    .showcase-img img {
+        width: 100%; /* Image takes up full width */
+        max-width: 40em; /* Limit max size */
+        margin: 0 auto; /* Center the image */
+    }
+
+    .showcase-text {
+        margin-top: 2em;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .showcase-text h5 {
+        font-size: 2em; /* Adjust font size for readability */
+    }
+
+    .showcase-text p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+
+    .showcase-text ul p {
+        font-size: 1em;
+    }
+
+    .showcase-text li {
+        font-size: 1em;
+    }
+
+    .order {
+        font-size: 1.1em;
+        padding: 0.8em 2.5em;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .showcase {
+        grid-template-columns: 1fr; /* Stack the elements */
+        row-gap: 1.5em; /* Add space between stacked sections */
+        height: auto; /* Let height adjust */
+    }
+
+    .showcase-img img {
+        width: 90%; /* Scale down image */
+        margin: 0 auto; /* Center the image */
+        margin-top: 1em;
+    }
+
+    .showcase-text {
+        margin-top: 2em;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .showcase-text h5 {
+        font-size: 1.5em; /* Reduce font size for smaller screens */
+    }
+
+    .showcase-text p {
+        font-size: 1em;
+        line-height: 1.4;
+        padding-top: 1em;
+    }
+
+    .showcase-text ul li {
+        font-size: 1em;
+    }
+
+    .order {
+        font-size: 1.1em;
+        padding: 0.8em 2em;
+    }
+}
